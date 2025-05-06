@@ -4,6 +4,7 @@ import MediaGrid from '../components/MediaGrid';
 import MediaModal from '../components/MediaModal';
 import { mediaData } from '../data/media';
 import { MediaItem, ModalState } from '../types';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   // State for media items
@@ -82,6 +83,7 @@ const Home: React.FC = () => {
           hasPrevious={hasPrevious}
         />
       )}
+      <Footer></Footer>
     </div>
   );
 };
