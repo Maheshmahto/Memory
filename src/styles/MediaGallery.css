@@ -1,0 +1,42 @@
+.media-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.media-item {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+video {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+video:hover {
+  transform: scale(1.05);
+}
+
+.media-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.media-card:hover {
+  transform: scale(1.05);
+}
+
+.media-video {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.media-image {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
