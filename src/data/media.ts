@@ -130,7 +130,7 @@ export const mediaData: MediaItem[] = [
   {
     id: '19',
     type: 'image',
-    url: '/IMG-29750505-WA0104.jpg',
+    url: '/IMG-20250505-WA0104.jpg',
     width: 1800,
     height: 1200,
   },
@@ -221,7 +221,7 @@ export const mediaData: MediaItem[] = [
   {
     id: '32',
     type: 'image',
-    url: '/IMG-202505 elegir05-WA0182.jpg',
+    url: '/ IMG-20250505-WA0182.jpg',
     width: 1200,
     height: 1800,
   },
